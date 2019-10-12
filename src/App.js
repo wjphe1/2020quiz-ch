@@ -4,9 +4,6 @@ import Quiz from './components/Quiz';
 import Result from './components/Result';
 import logo from './svg/logo.svg';
 import './App.css';
-import { Helmet } from 'react-helmet';
-
-const TITLE = '2020 Quiz'
 
 class App extends Component {
 
@@ -132,11 +129,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Helmet>
-          <title>{ TITLE }</title>
-        </Helmet>
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          <h1>WCP</h1>
           <h2>How Belanjawan 2020 Affects you?</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
