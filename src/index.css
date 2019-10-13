@@ -1,14 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: serif;
+  font-family: sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: serif;
+  font-family: sans-serif;
   font-weight: 300;
 }
 
@@ -19,8 +19,8 @@ code {
 body {
   margin: 0;
   padding: 0;
-  background: #eee;
-  font-family: serif;
+  background: rgb(150, 156, 185);
+  font-family: sans-serif;
   font-weight: 300;
 }
 
