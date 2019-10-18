@@ -1,19 +1,19 @@
 var quizQuestions = [
     {
-        question: "Are you a male or female?",
+        question: "您的性别是?",
         answers: [
             {
                 type: "Male",
-                content: "Male"
+                content: "男"
             },
             {
                 type: "Female",
-                content: "Female"
+                content: "女"
             }
         ]
     },
     {
-        question: "How old are you?",
+        question: "您的年龄是?",
         answers: [
             {
                 type: "Young",
@@ -30,7 +30,7 @@ var quizQuestions = [
         ]
     },
     {
-        question: "What is your yearly income range?",
+        question: "您的年收入是?",
         answers: [
             {
                 type: "lowincome",
@@ -50,84 +50,84 @@ var quizQuestions = [
             },
             {
                 type: "stopwork",
-                content: "I'm not working."
+                content: "我没在工作"
             }
         ]
     },
     {
-        question: "Do you have an EPF account? Are you planning to withdraw your EPF for higher education?",
+        question: "请问您有活跃的EPF户口吗? 您是否有考虑把您的EPF存款用于高等教育资金?",
         answers: [
             {
                 type: "yesepfyes",
-                content: "Yes i have an EPF account and planning to withdraw for studies."
+                content: "我有活跃的EPF户口，也打算取出用于高等教育资金。"
             },
             {
                 type: "yesepfno",
-                content: "Yes i have an EPF account but not planning to withdraw."
+                content: "我有活跃的EPF户口，可是不打算取出用于高等教育资金。"
             },
             {
                 type: "noepf",
-                content: "No i do not have an EPF account."
+                content: "我并没有活跃的EPF户口。"
             }
         ]
     },
     {
-        question: "Are you planning to start your own business?",
+        question: "您打算自己或合股创业吗?",
         answers: [
             {
                 type: "Ownbusiness",
-                content: "Yes"
+                content: "有打算"
             },
             {
                 type: "Noownbusiness",
-                content: "No"
+                content: "没有打算"
             }
         ]
     },
     {
-        question: "How do you usually travel?",
+        question: "您平常是使用哪一种交通工具?",
         answers: [
             {
                 type: "Car",
-                content: "Car"
+                content: "个人汽车"
             },
             {
                 type: "Bike",
-                content: "Motocycle"
+                content: "个人摩托车"
             },
             {
                 type: "Public",
-                content: "Public transport"
+                content: "公共交通"
             }
         ]
     },
     {
-        question: "Are you planning to sell or buy a house?",
+        question: "您有意购买或售卖房子吗?",
         answers: [
             {
                 type: "buy",
-                content: "I'm planning to buy."
+                content: "我有打算买房子。"
             },
             {
                 type: "sell",
-                content: "I'm planning to sell."
+                content: "我有在卖房子"
             },
             {
                 type: "notbuysell",
-                content: "I'm not buying nor selling."
+                content: "我并没有想要购买或售卖房子。"
             }
         ]
     },
     {
-        question: "Are you subscribed to Netflix, Spotify or been spending on gaming platform such as Steam?",
+        question: "您有在订阅Netflix, Spotify 或是有消费在一些类似Steam的游戏平台?",
         answers: [
             {
                 type: "yesdigital",
-                content: "Yes"
+                content: "有"
             },
             {
                 type: "nodigital",
-                content: "No"
+                content: "没有"
             }
         ]
     }

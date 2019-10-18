@@ -5,8 +5,9 @@ import { CSSTransitionGroup } from 'react-transition-group';
 function Y1(props) {
     return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
     <div>
-    ● RM735 million proposed for school maintenance and upgrading works.<br />
-    ● Government allocates RM210m to expedite digital infrastructure establishment in public buildings like schools.
+    ● 学校维修及提升拨款，国民型中学2000万令吉、独中1500万令吉、国小3亿令吉；华小、淡小和寄宿学校等各5000万令吉。<br />
+    ● 技职课程学生获每月100令吉额外补贴。<br/>
+    ● 政府将发放7000万令吉给大马数码经济机构设立有关中心，以扩展“100 go digital”计划，同时计划在吉打、霹雳和柔佛设立3座全新的电子图书馆，以通过电子内容推动知识和教育分享。
     </div>
   </CSSTransitionGroup>;
 }
@@ -14,8 +15,8 @@ function Y1(props) {
 function Freshgrads(props) {
     return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
     <div>
-    ● Hiring fresh graduates who have been unemployed for more than 12 months:
-    Two-year pay incentives of RM500 a month. Employers get two-year hiring incentives of RM300 a month.
+    ● 失业超过12个月，获聘大专毕业生获每月500令吉，雇主获每月300令吉补贴。<br/>
+    ● 雇主协助雇员还高等教育基金局贷款，获扣税优惠至2021年。
     </div>
   </CSSTransitionGroup>;
 }
@@ -23,7 +24,7 @@ function Freshgrads(props) {
 function BSH(props) {
   return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
   <div>
-  ● BSH scheme expanded to cover 1.1 million single individuals aged above 40 earning less than RM2,000 per month.
+  ● 延续生活援助金计划(BSH)，受惠群体扩大至40岁以上，月薪低于2000令吉的单身者。
   </div>
 </CSSTransitionGroup>;
 }
@@ -31,8 +32,16 @@ function BSH(props) {
 function MySalam(props) {
   return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
   <div>
-  ● MySalam to be expanded so that those with critical illnesses will get RM8,000 cash. <br/>
-  ● Those being treated in govt hospitals can also claim RM50 wage replacement a day for up to 14 days.
+  ● 国家健康保险计划(mySalam)保障计划将会扩大，涵盖45种疾病，多于现有的36种，包括小儿麻痹症和绝症。<br/>
+  ● 月收入低于2000令吉的18岁及以上之身心障碍者，获300令吉援助金，自动获免费MySalam保险。
+  </div>
+</CSSTransitionGroup>;
+}
+
+function Hospital(props) {
+  return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
+  <div>
+  ● 年收入高达10万令吉者，确诊及入住政府医院，可申领<strong>每天50令吉</strong>的收入补贴，长达14天。
   </div>
 </CSSTransitionGroup>;
 }
@@ -40,8 +49,7 @@ function MySalam(props) {
 function Ewallet(props) {
     return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
     <div>
-    ● To boost use of e-wallets, govt to offer one-time <strong>RM30</strong> digital stimulus to qualified Malaysians 
-    aged <strong>18 and above</strong> with annual income less than RM100,000.
+    ● 年收入10万令吉以下的<strong>18岁以上</strong>人民，获一次性<strong>30令吉</strong>“电子钱包”。
     </div>
   </CSSTransitionGroup>;
 }
@@ -49,11 +57,8 @@ function Ewallet(props) {
 function Sellhouse(props) {
     return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
     <div>
-    ● <strong>Real property gain tax (RPGT)</strong> base year for asset purchase revised from 1/1/2000 to 1/1/2013 for asset acquired before that date. 
-    I.E.: RPGT = (selling price of house – house evaluation price on 1/1/2013) x 5%. <br/>
-    ● To reduce supply overhang of condominiums and apartments amounting to RM8.3 billion in the second quarter of 2019, 
-    govt will lower the threshold on high rise property prices in urban areas for foreign ownership <strong>from RM1,000,000 to RM600,000</strong> in 2020.
-
+    ● <strong>保留产业盈利税 (RPGT)</strong>，结算基准年从2000年1月1日，改为2013年1月1日。 <br/>
+    ● 降低外国人在城市地区买房价格，门槛从<strong>100万令吉</strong>降至<strong>60万令吉</strong>。
     </div>
   </CSSTransitionGroup>;
 }
@@ -61,9 +66,8 @@ function Sellhouse(props) {
 function Youngbuyhouse(props) {
   return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
   <div>
-  ● Govt to extend <strong>Youth Housing Scheme</strong> administered by Bank Simpanan Nasional from 1/1/2020 until 31/12/2021. 
-  The scheme also offers a 10% loan guarantee via Cagamas to enable borrowers to get full financing and RM200 monthly 
-  instalment assistance for the first two years, limited to 10,000 home units.
+  ● 协助年轻人购买首间房屋，延长<strong>青年住房计划</strong>至2021年12月31日。<br/>
+  ● <strong>首购族青年</strong>的援助成功申请者将可通过抵押方式获得全额贷款，并可每月获得200令吉援助金两年。
   </div>
 </CSSTransitionGroup>;
 }
@@ -71,8 +75,7 @@ function Youngbuyhouse(props) {
 function Buyhouse(props) {
   return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
   <div>
-  ● To help those who can't come up with 10% deposit or get financing to buy homes, govt will collaborate with financial institutions to introduce the <strong>rent-to-own (RTO)</strong> financing scheme, 
-  where up to RM10 billion will be provided by the financial institutions, with the government supporting via a 30% or RM3 billion guarantee. (Terms applied)
+  ● 解决无法负担10%头期款项和融资买房问题，“先租后买”融资计划提供30%担保。
   </div>
 </CSSTransitionGroup>;
 }
@@ -80,8 +83,9 @@ function Buyhouse(props) {
 function Car(props) {
     return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
     <div>
-    ● Citizens to enjoy average 18% discount on all PLUS highways.<br />
-    ● Effective Jan 1, 2020, toll rates for cars at the Second Penang Bridge will be reduced from RM8.50 to RM7.00.
+    ● 2020年南北大道公司(PLUS)属下的大道，过路费获<strong>18%</strong>折扣。<br />
+    ● 内阁批准收购巴生河流域4条大道，以及征收交通疏导费。<br />
+    ● 2020年1月1日起, 槟城第二大桥<strong>汽车</strong>过路费从原有的8令吉50仙降至<strong>7令吉</strong>。
     </div>
   </CSSTransitionGroup>;
 }
@@ -89,8 +93,9 @@ function Car(props) {
 function Public(props) {
     return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
     <div>
-    ● RM450 million proposed to acquire up to 500 electric buses for public transport in selected cities nationwide.<br />
-    ● Govt intends to proceed with the Rapid Transit System (RTS) between Johor Bahru and Singapore.
+    ● 政府计划投资4亿5000万令吉，购入500架电力巴士。<br />
+    ● 为巴士公司拨款1亿4600 万令吉，进一步支持城乡地区的连接。<br />
+    ● 继续落实柔新捷运系统(RTS)。
     </div>
   </CSSTransitionGroup>;
 }
@@ -98,11 +103,8 @@ function Public(props) {
 function Petrol(props) {
     return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
     <div>
-    ● Individuals owning not more than <strong>two cars</strong> and <strong>two motorcycles</strong> can get fuel subsidy for one vehicle. The qualifying criteria are:<br />
-        ❖ A passenger car with 1,600cc engine capacity and below, or<br />
-        ❖ Any car above 1,600cc must be more than 10 years old, or<br />
-        ❖ A qualified motorcycle must be 150cc and below, or<br />
-        ❖ Any motorcycles above 150cc must be more than 7 years old.
+    ● 人民生活援助金（BSH）受惠者，汽车每个月获30令吉、摩哆12令吉。<br/>
+    ● 非BSH受惠者获打油卡Kad 95，每公升折扣30仙的补贴，每个月最多100公升。
     </div>
   </CSSTransitionGroup>;
 }
@@ -110,10 +112,9 @@ function Petrol(props) {
 function WorkingFemale(props) {
     return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
     <div>
-    ● Incentives to get women into the workforce:<br />
-        ❖ Two-year pay incentive of RM500 a month<br />
-        ❖ Hiring incentive of RM300<br />
-        ❖ Tax exemption for women returning to work will be extended until 2023.<br />
+    ● 重返职场女性，每月获500令吉薪金奖掖。雇主获每月300令吉奖掖。<br />
+    ● 妇女重返职场的所得税税务豁免，也延长至2023年。<br />
+    ● 2021年起，产假从原有60天延长至90天。
     </div>
   </CSSTransitionGroup>;
 }
@@ -121,9 +122,11 @@ function WorkingFemale(props) {
 function Business(props) {
     return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
     <div>
-    ● RM445m <strong>Bumiputera</strong> entrepreneur development grant for access to financing, provision of business premises, entrepreneurship training.<br />
-    ● Govt to provide loans worth RM100m under Small Industries Entrepreneurs Financing Scheme for <strong>Chinese</strong> community.<br />
-    ● Govt to provide RM20m in loans under entrepreneur development scheme for <strong>Indian</strong> community.<br />
+    ● 中小型企业的公司税税率从18%降至17%。<br/>
+    ● 拨款1亿令吉于<strong>华裔中小型企业</strong>基金。<br/>
+    ● 拨款3亿令吉于供具有发展潜能的中小型企业申请。<br/>
+    ● 政府将在未来5年提供总值5亿令吉的50%配对奖掖，让首10万家中小型企业申请最高5000令吉的拨款，提升其营运系统。<br/>
+    ● 政府计划在全国设立14间“一站式数码提升中心”，让商界尤其是中小型企业在迎向工业革命4.0之际，获得融资和发展能力。
     </div>
   </CSSTransitionGroup>;
 }
@@ -131,8 +134,16 @@ function Business(props) {
 function EPF(props) {
   return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
   <div>
-  ● To encourage adult learning, the EPF will expand the scope of its education withdrawal for qualification attained at certificate level, 
-  especially for accredited programmes that are in line with the nation’s IR 4.0 aspirations.
+  ● 为鼓励成年人学习，公积金局将扩大它在文凭水平资格的教育提款范畴，尤其是配合国家工业革命 4.0 愿景的文凭课程，公积金局正在探讨扩大这方面的提款，以涵盖会员的家长和配偶。<br/>
+  ● 政府也会准备与人力资源发展基金拨款相等的2000万令吉配对补助，以鼓励在职的成年人参与跟工业革命 4.0 有关的专业文凭考试。
+  </div>
+</CSSTransitionGroup>;
+}
+
+function EPFno(props) {
+  return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
+  <div>
+  ● 丈夫可自愿选择由其11%的雇员缴纳额，将2%移至妻子的公积金户头。
   </div>
 </CSSTransitionGroup>;
 }
@@ -140,8 +151,7 @@ function EPF(props) {
 function DST(props) {
   return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
   <div>
-  ● Digital services tax will be implemented with effect from 1/1/2020, 
-  to include services such as, but not limited to downloaded software, music, video, or digital advertising.
+  ● 数码税明年生效。
   </div>
 </CSSTransitionGroup>;
 }
@@ -149,7 +159,7 @@ function DST(props) {
 function HIT(props) {
   return <CSSTransitionGroup className="container result" component="div" transitionName="fade" transitionEnterTimeout={800} transitionLeaveTimeout={500} transitionAppear transitionAppearTimeout={500}>
   <div>
-  ● Govt proposes that a new band for taxable income in excess of RM2,000,000 be introduced and taxed at <strong>30%</strong>, a 2% increment from the current 28%.
+  ● 年收入超过200万令吉的纳税人被征税<strong>30%</strong> (比以往的28%多了2%)。
   </div>
 </CSSTransitionGroup>;
 }
@@ -161,9 +171,11 @@ function Result(props) {
 
     if (finalresult.includes("Young") === true) {
         List.push(<Y1/>)} 
+    if (finalresult.includes("lowincome" || "midincome") === true) {
+        List.push(<Hospital/>)} 
     if (finalresult.includes("Adult" && "stopwork") === true) {
         List.push(<Freshgrads/>)} 
-    if (finalresult.includes("Senior" && "midincome") === true) {
+    if (finalresult.includes("Senior" && "lowincome") === true) {
         List.push(<BSH/>)}
     if (finalresult.includes("Young") === false) {
         List.push(<Ewallet/>)}
@@ -178,7 +190,9 @@ function Result(props) {
     if (finalresult.includes("Ownbusiness") === true) {
         List.push(<Business />)}
     if (finalresult.includes("yesepfyes") === true) {
-        List.push(<EPF/>)}   
+        List.push(<EPF/>)} 
+    if (finalresult.includes("noepf") === false) {
+        List.push(<EPFno/>)}    
     if (finalresult.includes("Car") === true) {
         List.push(<Car/>,<Petrol/>)} 
     if (finalresult.includes("Bike") === true) {

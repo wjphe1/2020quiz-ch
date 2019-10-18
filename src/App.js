@@ -132,7 +132,7 @@ class App extends Component {
         <div className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1>WCP</h1>
-          <h2>How Belanjawan 2020 Affects you?</h2>
+          <h2>2020 财政预算案对你有什么影响?</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
